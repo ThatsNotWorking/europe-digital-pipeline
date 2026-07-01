@@ -40,6 +40,10 @@ The Netherlands and the United Kingdom adopted the internet earlier, while Italy
 
 Highlighting Italy against the rest makes the catch-up clear:  it went through a steep climb in the 2000s and 2010s, and joined the pack near the top by the 2020s
 
+![High-tech exports vs R&D spending](outputs/tech_vs_rnd.png)
+
+R&D spending does not cleanly predict high-tech exports. The lowest spenders (Italy, Spain) are also lowest on high-tech output, but the relationship breaks at the top and the reason lies in what each country is specialized: Germany, for example, has a strong car and machinery industry and spends heavily on R&D, but that output is classified as mid-tech, so it doesn't affect the high-tech export share
+
 ## How to run
 
 The database is generated when you run the pipeline and is not committed to the repository
