@@ -32,24 +32,30 @@ The adopted indicators are:
 
 ## Results
 
+![Internet adoption across Europe](outputs/internet_adoption.png)
+
 The Netherlands and the United Kingdom adopted the internet earlier, while Italy stayed behind the group for roughly two decades. By 2024, however, all seven countries converge into a narrow band around 88–97% 
+
+![Internet adoption across Europe](outputs/internet_adoption.png)
 
 Highlighting Italy against the rest makes the catch-up clear:  it went through a steep climb in the 2000s and 2010s, and joined the pack near the top by the 2020s
 
 ## How to run
 
-The database (`data/data.db`) is generated when you run the pipeline and is not committed to the repository
+The database is generated when you run the pipeline and is not committed to the repository
 
-(set up the environment)
+```bash
+#set up the environment
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-(build the database)
+#build the database
 python run.py
 
-(generate the charts)
+#generate the charts
 python analyze.py
+```
 
 ## Data source
 
